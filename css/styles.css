@@ -125,6 +125,7 @@ img {
 }
 
 .footer-address {
+  font-family: Roboto;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -179,6 +180,12 @@ img {
   color: var(--white-cl);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  color: blue;
+  background-color: white;
+}
+
 /* features section home page */
 
 .feature {
@@ -193,11 +200,7 @@ img {
 /* our team section home page */
 
 .team {
-  background-color: var(--alt-backgr);
-}
-
-.team .member-card {
-  background-color: var(--white-cl);
+  background-color: var(--alt-background);
 }
 
 .member-name {
