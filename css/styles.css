@@ -115,7 +115,7 @@ img {
 
 .footer-title,
 .footer-link {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -125,7 +125,8 @@ img {
 }
 
 .footer-address {
-  font-family: Roboto;
+  font-family: 'roboto';
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -133,6 +134,8 @@ img {
 }
 
 .footer-contacts {
+  font-family: 'roboto';
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -174,6 +177,7 @@ img {
 .hero-button {
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.8;
   letter-spacing: 0.06em;
   background-color: var(--accent-cl);
@@ -230,6 +234,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--add-cl);
+  font-family: inherit;
 }
 
 .portfolio-button:hover,
@@ -239,6 +244,7 @@ img {
 }
 
 .card-heading {
+  font-weight: 700;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
