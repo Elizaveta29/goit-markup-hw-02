@@ -72,6 +72,10 @@ img {
   letter-spacing: 0.03em;
 }
 
+.header-nav-link.current {
+  color: var(--accent-cl);
+}
+
 .header-link,
 .header-contacts {
   text-decoration: none;
@@ -93,10 +97,12 @@ img {
 .header-link:hover,
 .header-link:focus,
 .title-accent-one,
-.footer-link:hover,
-.footer-link:focus {
+.footer-contacts:hover,
+.footer-contacts:focus {
   color: var(--accent-cl);
 }
+
+
 
 .title-accent-two {
   color: var(--black-cl);
@@ -235,13 +241,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--add-cl);
   font-family: inherit;
+  cursor:pointer;
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-cl);
-  color: var(--wh-cl);
+  color: var(#fff);
 }
+
+
 
 .card-heading {
   font-weight: 700;
