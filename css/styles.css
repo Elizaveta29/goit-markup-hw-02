@@ -20,11 +20,11 @@ html {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  color: var(--main-text-cl);
-  font-weight: 400;
-  margin: 0;
+  color: var(--main-text-cl);  
+  font-size: 14px;
+  background-color: var(--white-cl);
+  letter-spacing: 0.03em;
 }
 
 /* general settings */
@@ -58,18 +58,14 @@ img {
   overflow: hidden;
 }
 .header {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  
 }
 
 .header .header-title {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  line-height: 1.19;  
 }
 
 .header-nav-link.current {
@@ -87,8 +83,14 @@ img {
 }
 
 .nav-link {
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--add-cl);
+ 
 }
 
 /* hovers and accents */
@@ -153,14 +155,12 @@ img {
 
 /* 2-lvl headings */
 .heading-team,
-.heading-activity,
+.section-title,
 .heading-features,
 .heading-portfolio {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--add-cl);
 }
 
@@ -198,13 +198,16 @@ img {
 
 /* features section home page */
 
-.feature {
-  font-weight: 700;
+
+.feature-title {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--add-cl);
+}
+
+.features-text {
+  line-height: 1.71;
 }
 
 /* our team section home page */
@@ -217,17 +220,14 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
+  text-align: center;  
   color: var(--add-cl);
 }
 
 .member-position {
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  text-align: center; 
 }
 
 /* portfolio page body*/
@@ -247,14 +247,12 @@ img {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-cl);
-  color: var(#fff);
+  color: var(--white-cl);
 }
 
 
 
 .card-heading {
-  font-weight: 700;
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -263,8 +261,6 @@ img {
 
 .card-descr {
   font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--main-text-cl);
+  line-height: 1.87;  
   font-weight: 400;
 }
